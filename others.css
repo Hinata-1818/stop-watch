@@ -12,7 +12,7 @@ h1{
     color: rgb(23, 225, 225);
     text-shadow: 1.5px 1.5px 5px rgba(27, 43, 51, 0.535),-1.5px -1.5px 5px rgb(21, 255, 235);
     margin-top: 210px;
-    margin-left:50%
+    margin-left:40%
 }
 #stopwatch-container{
     display: flex;
@@ -65,3 +65,4 @@ span{
     font-family: monospace;
 
 }
+

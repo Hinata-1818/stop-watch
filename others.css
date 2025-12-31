@@ -1,0 +1,65 @@
+body{
+    background-image: url(pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    color: rgb(23, 225, 225);
+    text-shadow: 1.5px 1.5px 5px rgba(27, 43, 51, 0.535),-1.5px -1.5px 5px rgb(21, 255, 235);
+    margin-top: 210px;
+}
+#stopwatch-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 510px;
+    margin: auto;
+    margin-top: 225px auto 0; 
+    border: 1px solid transparent;
+    backdrop-filter: blur(2.2px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 255, 238, 0.401),-2px -2px 5px rgba(0, 255, 238, 0.359);
+}
+#watch{
+    padding: 10px;
+    font-size: 6em;
+    font-family: monospace;
+    font-weight:bold;
+    color: rgb(52, 252, 255);
+}
+.buttons{
+    font-size: 2.1em;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(6, 82, 117);
+    color: rgb(38, 255, 251);
+    cursor: pointer;
+    border: 1px solid rgba(0, 255, 255, 0.358);
+}
+.buttons:hover{
+    background-color: rgb(21, 105, 143);
+    transition: 0.2s;
+}
+
+.buttons:active{
+    background-color:  rgb(41, 137, 181);;
+}
+p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family:cursive;
+
+}
+span{
+    color:aquamarine;
+    font-size: 23px;
+    font-family: monospace;
+}
